@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ferryman-ShowPPT</title>
+    <script src="//code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script src="/static/js/unslider-min.js"></script>
+    <link rel="stylesheet" href="/static/css/unslider.css">
+    <link rel="shortcut icon" href="/static/img/pptlogo.ico"/>
+    <link rel="bookmark" href="/static/img/pptlogo.ico"/>
+
+    <!--<link href="../css/cover.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/css/ppt.css">
+</head>
+<body>
+<main>
+    <div id="demos">
+        <div class="container-fluid site-wrapper">
+            <div class="row" id="slidediv">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="unslider">
+                        <div class="slide">
+                            <ul class="unslider-wrap">
+                                {%for slide in slides%}
+                                <li><img class="center-block" src="/static/pptx/{{ppt}}/{{slide}}" alt="{{slide}}"></li>
+                                {%endfor%}
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $('.slide').unslider({
+                animation: 'vertical', arrows: false
+            });
+        </script>
+    </div>
+
+</main>
+</body>
+
+</html>

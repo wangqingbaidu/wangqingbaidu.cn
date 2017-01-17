@@ -1,0 +1,17 @@
+<div id="vmaig-links">
+    <div class="panel panel-vmaig">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <span class="glyphicon glyphicon-link"></span>
+                    友情链接 
+                <span class="glyphicon glyphicon-remove btn panel-close pull-right"></span>
+                <span class="glyphicon glyphicon-chevron-up btn panel-collapse pull-right"  data-toggle="collapse" data-target="#links"></span>
+            </h3>
+        </div>
+        <div id="links" class="padding10 list-group collapse in">
+            {% for link in links %}
+            <a title="{{link.title}}" target="_blank" href="{{link.url}}" class="btn btn-xs btn-{{link.color}}">{{link.title}}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

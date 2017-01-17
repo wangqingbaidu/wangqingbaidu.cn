@@ -2,6 +2,7 @@
 我个人博客的源码，安装文档大家请参考[http://www.wangqingbaidu.cn/article/untitled1460536273.html](http://www.wangqingbaidu.cn/article/untitled1460536273.html)
 
 我自己添加的功能
+
 1. 自动添加markdown形式的博客。但是必须按照指定格式编写。下面的是一个示例。这些都是博客的元信息。最好不要为空。
 >```
 title=Papers on Deep Learning(Deep Embedding with Contextual Evidences)

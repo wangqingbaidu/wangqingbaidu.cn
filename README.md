@@ -20,7 +20,6 @@ summary=eee
 
 4.LaTex代码支持，`$$a=\sum_{n=1}^N{n}$$` 
 
-![](http://latex.codecogs.com/gif.latex?a=\sum_{n=1}^N{n})
 
 ##说明
 1.addblog文件夹中为哒溜君博客添加的所有博客内容，大家可以参考里面博客的形式。

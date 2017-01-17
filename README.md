@@ -11,6 +11,7 @@ tags=DeepLearning,Papers,ImageRetrival
 summary=eee
 <ep_info>
 ```
+
 2. 代码块支持，在markdown代码中添加`<pre class="brush:cpp;">code view </pre>` 其中`cpp`可以修改为`python`, `powershell`, `xml`, `java`, `jscript`
 
 3. ppt功能（阉割版，只能展示图片），url在/show_ppt/XXXX里面， 例子[http://www.wangqingbaidu.cn/show_ppt/XNORNET](http://www.wangqingbaidu.cn/show_ppt/XNORNET), 文件的存放路径`~/myblog/blog/blog/static/pptx`

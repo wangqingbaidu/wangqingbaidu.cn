@@ -27,15 +27,13 @@ summary=eee
 2.blog为vmaig博客的拷贝，但是增加上面的功能。
 
 
+###下面是vmaig博客的安装文档
 ___
 
+___
 vmaig.com 网站源码
 =================
-[![ENV](https://img.shields.io/badge/python-2.7%2C3.4-blue.svg)](https://github.com/billvsme/vmaig_blog)
 [![LICENSE](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/billvsme/vmaig_blog/blob/master/LICENSE)
-[![Travis](https://img.shields.io/travis/billvsme/vmaig_blog.svg)](https://travis-ci.org/billvsme/vmaig_blog)
-[![Docker Stars](https://img.shields.io/docker/stars/billvsme/vmaig_blog.svg)](https://hub.docker.com/r/billvsme/vmaig_blog/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/billvsme/vmaig_blog.svg)](https://hub.docker.com/r/billvsme/vmaig_blog/)
 #有问题欢迎加qq群
 vmaig qq群: 458788510  
 我的qq: 994171686  
